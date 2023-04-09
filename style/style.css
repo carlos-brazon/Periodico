@@ -1,0 +1,303 @@
+* {
+    background-color: aliceblue;
+    margin:5px 5px 5px 5px;
+    padding: 0%;
+}
+
+/* aqui empieza el encabezado del periodico */
+.encabezadoperiodico {
+    margin: 1px;
+    padding: 1px;
+    width: 1500px;
+    height: auto px;
+    display: inline-block;
+}
+
+.tiempo {
+    color:rgb(9, 9, 9);
+    background-color: rgb(200, 213, 213);
+   margin: 0px 10px 10px 10px;
+   padding: 0px 10px 10px 10px;
+   border-radius: 15%;
+   width: 105px;
+   height: 135px;
+   text-align: center;
+   display: inline-block;
+   }
+i {
+    background-color: rgb(200, 213, 213);
+ padding: 0%;
+}
+
+.head2 {
+    /* color:rgb(174, 37, 153); */
+    /* border: 1px solid rgb(1, 12, 45); */
+    margin: 1px 1px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width:75%;
+    height: 120px;
+    display: inline-block;    
+}
+
+h1 { 
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 680%;
+color: rgb(11, 218, 218);
+}
+
+.imgg {
+    color:rgb(9, 9, 9);
+    background-color: rgb(200, 213, 213);
+    margin: 0px 1px 1px 10px;
+    padding: 10px 10px 10px 10px;
+    width: 180px;
+    height: 130px;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 10%;
+    text-align: center;
+    display: inline-block;
+   }
+
+   img[src="./assets/titulo.gif"] {
+    width: 180px;
+    height: 130px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    border-radius: 10% 20% 10% 20%;
+   }
+   
+   .fecha {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 1490px;
+    height: 20px;
+    font-size: 100%;
+    margin: 1px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+   }
+   /* aqui termina el encabezado del periodico */
+
+   .columnas {
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    width: 1500px;
+    height: 1500px;
+   }
+
+.articulos {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 263px;
+    height: 1400px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: left;
+    text-align: justify;
+   }
+figcaption {
+    margin: 0px 0px 15px 0px;
+}
+
+.lineatop {
+    border-top: 1px solid black;
+    width: 30%;
+    margin: 15px 0px 10px 90px;
+}
+.lineabottom {
+    border-bottom: 1px solid black;
+    width: 30%;
+    margin: 10px 0px 15px 90px;
+}
+
+                                                         /* ARTICULO1 */
+
+.titulo1 {
+    font-family:'Arial Narrow';
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.subtitulo1 {
+   text-align: center;
+   font-size: 90%;
+   font-family:'Courier New', Courier, monospace;
+   margin: 0px 10px 0px 10px;
+   padding: 0px 2px 0px 2px;
+   width: 93%;
+}
+
+   img[src="./assets/exorcismo.gif"] {
+    width: 255px;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 3%;
+
+    /* border: 5px solid green; */
+   }
+
+.linealateral1 {
+    border-left: 1px solid black;
+    width: 1%;
+    height: 1400px;
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+}
+
+                                                        /* ARTICULO 2 */
+.titulo2 {
+    font-family:'Times New Roman';
+    font-style: italic;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.subtitulo2 {
+   text-align: center;
+   font-size: 110%;
+   font-family: monospace;
+   font-style: inherit;
+   margin: 0px 10px 0px 10px;
+   padding: 0px 2px 0px 2px;
+   width: 93%;
+}
+
+img[src="./assets/peques.webp"] {
+    width: 255px;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 3%;
+   }
+
+.linealateral2 {
+    border-left: 1px solid black;
+    width: 1%;
+    height: 1400px;
+    padding: 0px;
+    margin: 0px 0px 00px 10px;
+    display: inline-block;
+}
+
+                                                         /* ARTICULO 3 */
+.titulo3 {
+font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+font-size: x-large;
+margin: 5px 0px 5px 0px;
+text-align: center;
+}
+
+.subtitulo3 {
+text-align: center;
+font-size: 95%;
+font-family: Georgia, Times, 'Times New Roman', serif;
+font-style: oblique;
+margin: 0px 10px 0px 10px;
+padding: 0px 2px 0px 2px;
+width: 93%;
+}
+
+img[src="./assets/mono.webp"] {
+    width: 255px;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.linealateral3 {
+    border-left: 1px solid black;
+    width: 1%;
+    height: 1120px;
+    padding: 0px;
+    margin: 5px 0px 280px 10px;
+    display: inline-block;
+}
+
+                                                               /* ARTICULO 4 */
+.titulo4 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    margin: 5px 0px 5px 0px;
+    text-align: center; 
+}
+
+.subtitulo4 {   
+    text-align: center;
+    font-size: 95%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 2px 0px 2px;
+    width: 93%;
+}
+
+img[src="./assets/poop.webp"] {
+    width: 255px;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.linealateral4 {    
+    border-left: 1px solid black;
+    width: 1%;
+    height: 1150px;
+    padding: 0px;
+    margin: 0px 0px 250px 10px;
+    display: inline-block;
+}
+
+                                                         /* ARTICULO 5 */
+.titulo5 {
+    font-family: caveat;
+    font-style: italic;
+    font-size: 25px;
+    margin: 5px 0px 5px 0px;
+    text-align: center; 
+}
+
+.subtitulo5 {
+    text-align: center;
+    font-size: 95%;
+    font-family:'Times New Roman', serif;
+    font-style: oblique;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 2px 0px 2px;
+    width: 93%;
+}
+
+img[src="./assets/planta.webp"] {
+    width: 255px;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.linealateral5 {
+    border-left: 1px solid black;
+    width: 1%;
+    height: 1400px;
+    padding: 0px;
+    display: inline-block;
+}
